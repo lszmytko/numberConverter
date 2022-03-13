@@ -43,12 +43,18 @@
   letter-spacing: 0.1rem;
 }
 
-.form-input, .error, .result, .form-btn{
-  font-size: .75rem;
+.form-input,
+.error,
+.result,
+.form-btn {
+  font-size: 0.75rem;
 }
 
 @media screen and (min-width: 768px) {
-  .form-input, .error, .result, .form-btn{
+  .form-input,
+  .error,
+  .result,
+  .form-btn {
     font-size: 1rem;
   }
 }

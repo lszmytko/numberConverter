@@ -18,6 +18,7 @@ function App() {
       setConvertedNumber("");
       return setError("Not a proper number!");
     }
+    if (numberasString.length > 9) setError("Numebr too big");
     setConvertedNumber(showNumber(numberasNumber));
   };
 
