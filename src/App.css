@@ -14,7 +14,6 @@
 
 .form-input {
   padding: 1rem;
-  border-radius: 0.5rem;
   border: none;
   margin-right: 1rem;
 }
@@ -44,12 +43,12 @@
   letter-spacing: 0.1rem;
 }
 
-.form, .error, .result, .form-btn{
+.form-input, .error, .result, .form-btn{
   font-size: .75rem;
 }
 
 @media screen and (min-width: 768px) {
-  .form, .error, .result, .form-btn{
+  .form-input, .error, .result, .form-btn{
     font-size: 1rem;
   }
 }
